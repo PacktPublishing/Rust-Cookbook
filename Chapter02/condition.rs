@@ -3,7 +3,7 @@
 // Version : 1.0
 // Date : 3 Dec 2016
 
-use std::{i32};
+
 
 fn main() {
 	let age : i32= 10;
@@ -17,6 +17,6 @@ fn main() {
 		 println!("Do something with your life");
 	}
 
-	let can_vote = if (age >= 18) {true} else {false};
+	let can_vote = if age >= 18 {true} else {false};
 	println!("Can vote {}",can_vote );
 }
